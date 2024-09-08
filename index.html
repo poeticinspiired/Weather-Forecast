@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weather Forecast</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+</style>
+</head>
+<body class="bg-gradient-to-b from-blue-900 to-blue-800 text-white">
+<div class="max-w-screen-md mx-auto px-4">
+  <div class="text-center py-12">
+    <h2 class="text-2xl font-bold mb-2">My Location</h2>
+    <p class="text-lg">HAMILTON</p>
+    <div class="text-4xl font-semibold my-2">2° | Mostly Clear</div>
+  </div>
+  <div class="bg-blue-700 p-4 rounded-lg mb-6">
+    <div class="flex justify-between items-center">
+      <div class="text-lg">HOURLY FORECAST</div>
+      <div class="flex space-x-3">
+        <div>2°</div>
+        <div>1°</div>
+        <div>1°</div>
+        <div>0°</div>
+        <div>-1°</div>
+        <div>-1°</div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-blue-700 p-4 rounded-lg">
+    <div class="text-lg mb-4">10-DAY FORECAST</div>
+    <div class="space-y-3">
+      <div class="flex justify-between items-center">
+        <div>Today</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud mr-2"></i>
+          <div>-1°</div>
+          <div class="bg-blue-500 h-2 w-32 mx-4 rounded"></div>
+          <div>5°</div>
+        </div>
+      </div>
+      <!-- Repeat this block for each day in the forecast -->
+      <div class="flex justify-between items-center">
+        <div>Tue</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud mr-2"></i>
+          <div>-3°</div>
+          <div class="bg-blue-500 h-2 w-24 mx-4 rounded"></div>
+          <div>4°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Wed</div>
+        <div class="flex items-center">
+          <i class="fas fa-sun mr-2"></i>
+          <div>-6°</div>
+          <div class="bg-blue-500 h-2 w-8 mx-4 rounded"></div>
+          <div>1°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Thu</div>
+        <div class="flex items-center">
+          <i class="fas fa-snowflake mr-2"></i>
+          <div>-4°</div>
+          <div class="bg-blue-500 h-2 w-12 mx-4 rounded"></div>
+          <div>2°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Fri</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud mr-2"></i>
+          <div>-4°</div>
+          <div class="bg-blue-500 h-2 w-6 mx-4 rounded"></div>
+          <div>0°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Sat</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud mr-2"></i>
+          <div>-10°</div>
+          <div class="bg-blue-500 h-2 w-0 mx-4 rounded"></div>
+          <div>-4°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Sun</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud-sun mr-2"></i>
+          <div>-9°</div>
+          <div class="bg-blue-500 h-2 w-2 mx-4 rounded"></div>
+          <div>-1°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Mon</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud-sun mr-2"></i>
+          <div>-7°</div>
+          <div class="bg-blue-500 h-2 w-20 mx-4 rounded"></div>
+          <div>4°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Tue</div>
+        <div class="flex items-center">
+          <i class="fas fa-sun mr-2"></i>
+          <div>-4°</div>
+          <div class="bg-blue-500 h-2 w-16 mx-4 rounded"></div>
+          <div>3°</div>
+        </div>
+      </div>
+      <!-- ... other days ... -->
+      <div class="flex justify-between items-center">
+        <div>Wed</div>
+        <div class="flex items-center">
+          <i class="fas fa-cloud mr-2"></i>
+          <div>-6°</div>
+          <div class="bg-blue-500 h-2 w-32 mx-4 rounded"></div>
+          <div>6°</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
